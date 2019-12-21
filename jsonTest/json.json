@@ -1,0 +1,11 @@
+{
+  "feed" :
+    {
+      "id": 1,
+      "name": "Alexey Berezin",
+      "company": {
+        "name": "Virtus Pro",
+        "shortName": "VP"
+      }
+    }
+}
