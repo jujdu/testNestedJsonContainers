@@ -1,5 +1,5 @@
 {
-  "feed" :
+  "feed" : [
     {
       "id": 1,
       "name": "Alexey Berezin",
@@ -8,4 +8,5 @@
         "shortName": "VP"
       }
     }
+    ]
 }
