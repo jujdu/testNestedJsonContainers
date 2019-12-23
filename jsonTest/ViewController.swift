@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         do {
             let data = try Data(contentsOf: url)
             let decoder = JSONDecoder()
+            decoder.keyDecodingStrategy = .convertFromSnakeCase
             let result = try decoder.decode(Feed.self, from: data)
             completion(.success(result))
         } catch {
